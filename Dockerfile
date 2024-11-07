@@ -20,3 +20,4 @@ RUN apk add --no-cache tmux
 COPY --from=download /tmp/overmind /usr/local/bin/overmind
 
 ENTRYPOINT [ "overmind" ]
+CMD [ "start" ]
