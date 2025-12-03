@@ -13,7 +13,7 @@ RUN ARCH="${TARGETPLATFORM#*/}"; \
     chmod +x /tmp/overmind
 
 
-FROM alpine:3.22.2
+FROM alpine:3.23.0
 
 RUN apk add --no-cache tmux
 
